@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Showroom</title>
+</head>
+<frameset rows="20%, 80%">
+  <!-- Top frame for showroom name -->
+  <frame src="showroom_name.html" name="topFrame" scrolling="no" noresize>
+
+  <frameset cols="30%, 70%">
+    <!-- Left frame for bike brands -->
+    <frame src="bike_brands.html" name="leftFrame" noresize>
+
+    <!-- Right frame for bike models and specifications -->
+    <frame src="default.html" name="rightFrame" noresize>
+  </frameset>
+</frameset>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showroom Name</title>
+</head>
+<body>
+  <h1>Your Bike Showroom Name</h1>
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Brands</title>
+</head>
+<body>
+  <ul>
+    <li><a href="brand1.html" target="rightFrame">Brand 1</a></li>
+    <li><a href="brand2.html" target="rightFrame">Brand 2</a></li>
+    <!-- Add more bike brands as needed -->
+  </ul>
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Models</title>
+</head>
+<body>
+  <p>Select a bike brand from the left to view models and specifications.</p>
+</body>
+</html>

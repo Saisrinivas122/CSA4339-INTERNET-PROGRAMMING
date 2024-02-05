@@ -1,0 +1,30 @@
+<!DOCTYPE hhtml>
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function fun(str)
+{
+var num= Number(str);
+var i,j,k,count;
+document.write("<h3>"+" Fibonacci series is.... "+"<h3>");
+i=0;
+j=1;
+document.write(j);
+for(count=0;count<=num;count++)
+{
+k=i+j;
+i=j;
+j=k;
+document.write(","+k);
+}
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+var input_str=prompt("Enter a number","");
+fun(input_str);
+</script>
+</body>
+</html>
